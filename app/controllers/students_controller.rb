@@ -1,5 +1,5 @@
 class StudentsController < ApplicationController
-  render 'student'
+  layout 'student'
 
   def new
     @student = Student.new
