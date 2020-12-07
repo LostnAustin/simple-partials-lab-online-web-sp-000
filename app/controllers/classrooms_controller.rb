@@ -1,6 +1,5 @@
 class ClassroomsController < ApplicationController
 
-  layout 'student'
 
   def show
     @classroom = Classroom.find(params[:id])
