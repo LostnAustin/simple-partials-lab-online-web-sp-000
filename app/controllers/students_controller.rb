@@ -1,4 +1,5 @@
 class StudentsController < ApplicationController
+
   layout 'student'
 
   def new
